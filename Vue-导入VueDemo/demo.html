@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div id="app">
+    <span v-bind:title="message">
+
+          悬停此处查看标题
+    </span>
+    <span ></span>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    var vue = new Vue({
+       el:"#app",
+       data:{
+           message:"Hello,Vue!",
+       }
+    });
+
+</script>
+
+</body>
+</html>

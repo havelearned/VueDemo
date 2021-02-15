@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <h1 v-if="ok">yes</h1>
+    <h1 v-else>No</h1>
+
+    <hr>
+
+    <h2 v-if="type=='1'"> 我是A</h2>
+    <h2 v-else-if="type=='2'"> 我是B</h2>
+    <h2 v-else-if="type=='3'"> 我是C</h2>
+    <h2 v-else-if="type=='4'"> 我是D</h2>
+    <h2 v-else>我啥都不是</h2>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    let vue = new Vue({
+       el:"#app",
+       data: {
+           ok: true,
+           type:"A"
+       }
+    });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div id="app">
+    <li v-for="(itme,index) in itmes">{{itme.faset}}{{index}}
+
+        <ul>
+            {{itme.faset}}{{index}}
+            <ul>
+                {{itme.faset}}{{index}}
+            </ul>
+        </ul>
+    </li>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    let vue = new Vue({
+        el:"#app",
+        data:{
+            itmes: [
+                {faset:'第一条数据'},
+                {faset:'第二条数据'},
+                {faset:'第三条数据'}
+            ]
+        }
+    });
+</script>
+
+</body>
+</html>
