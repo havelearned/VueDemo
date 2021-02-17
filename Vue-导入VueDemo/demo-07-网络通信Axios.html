@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+
+<div id="app2">
+    <h1>{{info.movieList}}</h1>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+
+    var data =new  Vue({
+        el: '#app2',
+
+        data() {
+            return {
+               info:{
+                   chiefBonus:null,
+                   coming:null,
+                   movieIds:null,
+                   stid:null,
+                   stids:null
+               }
+            }
+        },
+        mounted() {
+            axios.get("data.json").then(response => (this.info= response.data))
+        }
+    });
+
+</script>
+
+</body>
+</html>

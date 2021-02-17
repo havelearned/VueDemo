@@ -1,0 +1,274 @@
+{
+  "chiefBonus": {},
+  "coming": [],
+  "movieIds": [
+    1299372,
+    1217023,
+    1298938,
+    1048268,
+    1300936,
+    1199007,
+    1299124,
+    553231,
+    1332663,
+    1218142,
+    1334342,
+    1244901,
+    247294,
+    1302287,
+    1298050,
+    657668,
+    1331256,
+    1230685,
+    1276254,
+    1301793,
+    1303287,
+    1358557
+  ],
+  "stid": "576591972453269000",
+  "stids": [
+    {
+      "movieId": 1299372,
+      "stid": "576591972453269000_a1299372_c0"
+    },
+    {
+      "movieId": 1217023,
+      "stid": "576591972453269000_a1217023_c1"
+    },
+    {
+      "movieId": 1298938,
+      "stid": "576591972453269000_a1298938_c2"
+    },
+    {
+      "movieId": 1048268,
+      "stid": "576591972453269000_a1048268_c3"
+    },
+    {
+      "movieId": 1300936,
+      "stid": "576591972453269000_a1300936_c4"
+    },
+    {
+      "movieId": 1199007,
+      "stid": "576591972453269000_a1199007_c5"
+    },
+    {
+      "movieId": 1299124,
+      "stid": "576591972453269000_a1299124_c6"
+    },
+    {
+      "movieId": 553231,
+      "stid": "576591972453269000_a553231_c7"
+    },
+    {
+      "movieId": 1332663,
+      "stid": "576591972453269000_a1332663_c8"
+    },
+    {
+      "movieId": 1218142,
+      "stid": "576591972453269000_a1218142_c9"
+    },
+    {
+      "movieId": 1334342,
+      "stid": "576591972453269000_a1334342_c10"
+    },
+    {
+      "movieId": 1244901,
+      "stid": "576591972453269000_a1244901_c11"
+    }
+  ],
+  "total": 22,
+  "movieList": [
+    {
+      "id": 1299372,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/48774506dc0e68805bc25d2cd087d1024316392.jpg",
+      "version": "",
+      "nm": "你好，李焕英",
+      "preShow": false,
+      "sc": 9.5,
+      "globalReleased": true,
+      "wish": 1162302,
+      "star": "贾玲,张小斐,沈腾",
+      "rt": "2021-02-12",
+      "showInfo": "今天328家影院放映5580场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1217023,
+      "haspromotionTag": false,
+      "img": "http://p1.meituan.net/w.h/movie/ece9ff81e6f0af2c859aa151e42a33312706648.jpg",
+      "version": "v2d imax",
+      "nm": "唐人街探案3",
+      "preShow": false,
+      "sc": 8.6,
+      "globalReleased": true,
+      "wish": 4468547,
+      "star": "王宝强,刘昊然,妻夫木聪",
+      "rt": "2021-02-12",
+      "showInfo": "今天328家影院放映4433场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1298938,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/72291e1cbc83311656e01e828ca79ddd2106074.jpg",
+      "version": "v3d",
+      "nm": "熊出没·狂野大陆",
+      "preShow": false,
+      "sc": 8.9,
+      "globalReleased": true,
+      "wish": 390157,
+      "star": "张秉君,谭笑,张伟",
+      "rt": "2021-02-12",
+      "showInfo": "今天314家影院放映880场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1048268,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/9ef2f7d8d6f11c55723d7be5fa77218d1022103.jpg",
+      "version": "v3d imax",
+      "nm": "刺杀小说家",
+      "preShow": false,
+      "sc": 8.6,
+      "globalReleased": true,
+      "wish": 500948,
+      "star": "雷佳音,杨幂,董子健",
+      "rt": "2021-02-12",
+      "showInfo": "今天321家影院放映1469场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1300936,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/8a1ad4ec0d81f240e4d8c2d1b10c2ec53475644.jpg",
+      "version": "",
+      "nm": "人潮汹涌",
+      "preShow": false,
+      "sc": 9.1,
+      "globalReleased": true,
+      "wish": 246956,
+      "star": "刘德华,肖央,万茜",
+      "rt": "2021-02-12",
+      "showInfo": "今天260家影院放映629场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1199007,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/12b0e9d3c645cda41a9c787066d52279388947.jpg",
+      "version": "",
+      "nm": "侍神令",
+      "preShow": false,
+      "sc": 8.5,
+      "globalReleased": true,
+      "wish": 537583,
+      "star": "陈坤,周迅,陈伟霆",
+      "rt": "2021-02-12",
+      "showInfo": "今天267家影院放映593场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1299124,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/moviemachine/6766681dc599e1964e9acbf86391207377187.jpg",
+      "version": "v3d imax",
+      "nm": "新神榜：哪吒重生",
+      "preShow": false,
+      "sc": 8.8,
+      "globalReleased": true,
+      "wish": 266547,
+      "star": "杨天翔,张赫,宣晓鸣",
+      "rt": "2021-02-12",
+      "showInfo": "今天298家影院放映764场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 553231,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/moviemachine/38cdf0810cad207ef0917abe4fa1e3ef5788447.jpg",
+      "version": "v3d",
+      "nm": "心灵奇旅",
+      "preShow": false,
+      "sc": 9.3,
+      "globalReleased": true,
+      "wish": 19450,
+      "star": "杰米·福克斯,蒂娜·菲,菲利西亚·拉斯海德",
+      "rt": "2020-12-25",
+      "showInfo": "今天15家影院放映21场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1332663,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/6ac27475bf1b4f668a57b17d91d949743056059.jpg",
+      "version": "",
+      "nm": "海底小纵队：火焰之环",
+      "preShow": false,
+      "sc": 8.8,
+      "globalReleased": true,
+      "wish": 33087,
+      "star": "郭盛,苏俣,方宇",
+      "rt": "2021-01-08",
+      "showInfo": "今天12家影院放映19场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1218142,
+      "haspromotionTag": false,
+      "img": "http://p1.meituan.net/w.h/movie/63696901c00a1aea8fcc62ba873bb6d41014216.jpg",
+      "version": "v2d imax",
+      "nm": "拆弹专家2",
+      "preShow": false,
+      "sc": 9.3,
+      "globalReleased": true,
+      "wish": 310427,
+      "star": "刘德华,刘青云,倪妮",
+      "rt": "2020-12-24",
+      "showInfo": "今天3家影院放映4场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1334342,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/df84690ded848edf709187eae23a7969866455.jpg",
+      "version": "",
+      "nm": "送你一朵小红花",
+      "preShow": false,
+      "sc": 9.3,
+      "globalReleased": true,
+      "wish": 708308,
+      "star": "易烊千玺,刘浩存,朱媛媛",
+      "rt": "2020-12-31",
+      "showInfo": "今天3家影院放映3场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1244901,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/817f964bd5c112da0ad43eff983f20ff2285275.jpg",
+      "version": "v3d imax",
+      "nm": "许愿神龙",
+      "preShow": false,
+      "sc": 9.1,
+      "globalReleased": true,
+      "wish": 81537,
+      "star": "成龙,牛骏峰,薇薇安",
+      "rt": "2021-01-15",
+      "showInfo": "今天2家影院放映3场",
+      "showst": 3,
+      "wishst": 0
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div id="app">
+
+<mydiv></mydiv>
+     给组件传值
+    <br>
+
+    <!--先是循环 遍历 itmes 赋值给 itme itme 绑定给values values 是props中的变量可以给自定义标签传值-->
+    <mydiv2 v-for=" itme in itmes" v-bind:values="itme"></mydiv2>
+
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+<script>
+
+    Vue.component("mydiv",{
+        template:'<li>自定义组件\n' +
+            '\n' +
+            '        <ul>1\n' +
+            '\n' +
+            '            <ul>2</ul>\n' +
+            '        </ul>\n' +
+            '    </li>'
+
+    });
+
+    Vue.component("mydiv2",{
+        props:["values"],
+        template:'<li>{{values}}</li>'
+
+    });
+
+
+    var vue =new Vue({
+        el: "#app",
+        data:{
+            itmes:['java','c++','c','c#'],
+            message: "自定组件li标签",
+            message2: "自定组件ui标签"
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+    <todo>
+        <tod_title slot="tod_title" :title="message"></tod_title>
+        <tod_body slot="tod_body" v-for="time in times" :body="time"></tod_body>
+    </todo>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+
+    Vue.component('todo', {
+        template: '<div>\
+                    <slot name="tod_title"> </slot>\
+                    <ul>\
+                    <slot name="tod_body" > </slot>\
+                    </ul>\
+            </div>'
+    });
+
+    Vue.component('tod_title', {
+        props:['title'],
+        template: '<div>{{title}}</div>'
+    });
+
+    Vue.component('tod_body', {
+        props:['body'],
+        template: '<li>{{body}}</li>'
+    });
+
+
+    var vue = new Vue({
+        el: "#app",
+        data: {
+            message: "测试",
+            message2: "java",
+            times:[1,2,3,4,5,6,7,8]
+        }
+    });
+</script>
+</body>
+</html>
