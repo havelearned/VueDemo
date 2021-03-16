@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-create_vueprj/01-create_vueprj.iml" filepath="$PROJECT_DIR$/01-create_vueprj/01-create_vueprj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/VuePrj.iml" filepath="$PROJECT_DIR$/.idea/VuePrj.iml" />
+    </modules>
+  </component>
+</project>
