@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="selenium-server-standalone-3.141.591">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/VuePrj/01-create_vueprj/node_modules/selenium-server/lib/runner/selenium-server-standalone-3.141.59.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

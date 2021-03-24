@@ -16,7 +16,7 @@ export default new Router({
       component: Index,
       children: [
         {path: '/user/profile',name: Profile,  component: Profile},
-        {path: '/user/userList',name: UserList,  component: UserList},
+        {path: '/user/userList/:id',name: UserList,  component: UserList},
 
       ]
     },
@@ -27,7 +27,7 @@ export default new Router({
 
     },
     {
-      path: '/article',
+      path: '/article/:id:name',
       name: 'Article',
       component: Article
     }

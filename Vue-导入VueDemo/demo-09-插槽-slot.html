@@ -9,7 +9,8 @@
 
     <todo>
         <tod_title slot="tod_title" :title="message"></tod_title>
-        <tod_body slot="tod_body" v-for="time in times" :body="time"></tod_body>
+        <tod_body slot="tod_body" v-for="(time,index) in times" :body="time"
+                  v-bind:index="index" v-on:remove="removeItem(index)"></tod_body>
     </todo>
 </div>
 
@@ -19,11 +20,11 @@
 
     Vue.component('todo', {
         template: '<div>\
-                    <slot name="tod_title"> </slot>\
-                    <ul>\
-                    <slot name="tod_body" > </slot>\
-                    </ul>\
-            </div>'
+                        <slot name="tod_title"> </slot>\
+                        <ul>\
+                            <slot name="tod_body" > </slot>\
+                        </ul>\
+                </div>'
     });
 
     Vue.component('tod_title', {
@@ -32,8 +33,13 @@
     });
 
     Vue.component('tod_body', {
-        props:['body'],
-        template: '<li>{{body}}</li>'
+        props:['body','index'],
+        template: '<li>{{index}}-----{{body}} <button @click="removeItem">删除</button></li>',
+        methods:{
+            removeItem:function(index){
+                this.$emit('remove',index)
+            }
+        }
     });
 
 
@@ -43,8 +49,16 @@
             message: "测试",
             message2: "java",
             times:[1,2,3,4,5,6,7,8]
+        },
+        methods:{
+            removeItem:function(index){
+                console.log("删除了--"+this.times[index])
+                this.times.splice(index,1)//删除索引处元素
+            }
         }
     });
+
+
 </script>
 </body>
 </html>

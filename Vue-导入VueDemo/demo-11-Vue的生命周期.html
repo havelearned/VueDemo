@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <button v-on:click="show">点击</button>
+</div>
+
+
+
+<script>
+    var vue= new Vue({
+        el:'#app',
+        data:{
+            message:'hello Vue'
+        },
+        methods:{
+            show(){
+                console.log('{show 方法被执行了}')
+
+            },
+            //钩子函数自动执行,再空的Vue实例前创建
+            beforeCreate(){ //在执行这个方法之前是否获取到 数据为message这个
+                console.log('message:',this.message)
+                this.show()
+            },
+            created(){  //空Vue实例创建完成
+                console.log('message',this.message)
+                this.show()
+            },
+
+        }
+    })
+
+</script>
+
+</body>
+</html>

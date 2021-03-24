@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="chromedriver_win321">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/VuePrj/my_web/node_modules/chromedriver/lib/chromedriver/chromedriver_win32.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

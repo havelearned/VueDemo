@@ -2,9 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+
+<div id="app2">
+    <h1>{{info.mId}}</h1>
+    <h1>{{info.mMovieName}}</h1>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+
+    var data =new  Vue({
+        el: '#app2',
+        data() {
+            return {
+                info:{
+                    mId:null,
+                    mMovieName:null,
+                    mDirector:null,
+                    mProtagonist:null,
+                    mSupport:null
+                }
+            }
+        },
+        mounted() {
+            axios.get("http://121.196.106.152:9999/DDSYSystem/modelmmovie").then(response => (this.info= response.data))
+        }
+    });
+
+</script>
 </body>
 </html>
